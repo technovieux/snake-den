@@ -1,5 +1,4 @@
-![App Screenshot](https://github.com/technovieux/snake-den/public/snakeden-logo.png)
-
+![Logo](https://github.com/technovieux/snake-den/blob/main/public/snakeden-logo.png)
 
 # SnakeDen MVP
 
