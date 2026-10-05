@@ -130,3 +130,4 @@ Dans SnakeDen :
 - l'emplacement de stockage système peut nécessiter des permissions adaptées.
 
 Ces fonctionnalités sont volontairement prévues pour les prochaines étapes.
+
