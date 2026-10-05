@@ -1,6 +1,9 @@
+![App Screenshot](https://github.com/technovieux/snake-den/public/snakeden-logo.png)
+
+
 # SnakeDen MVP
 
-SnakeDen est un prototype de gestionnaire de machines virtuelles avec une interface type App Store.
+SnakeDen est un gestionnaire de machines virtuelles avec une interface type App Store.
 
 ## Architecture
 
@@ -23,9 +26,7 @@ Le MVP permet :
 
 ## Prérequis Debian
 
-Voir la documentation Tauri pour les dépendances de développement Linux.
-
-Installez ensuite les outils de virtualisation :
+Installez les outils de virtualisation :
 
 ```bash
 sudo apt update
@@ -97,37 +98,21 @@ Les ISO téléchargées seules sont archivées dans le dossier Downloads de l'ut
 ~/Downloads
 ```
 
-Pour tester avec un autre emplacement :
-
-```bash
-export SNAKEDEN_VM_DIR="$HOME/SnakeDen/VMs"
-mkdir -p "$SNAKEDEN_VM_DIR"
-npm run tauri:dev
-```
-
 ## Créer une première VM
 
 Dans SnakeDen :
 
 1. Découvrir
-2. Choisir Ubuntu/Debian/Fedora
-3. Installer
-4. Entrer le chemin vers une ISO existante
-5. Choisir CPU/RAM/disque
-6. Créer la VM
-7. Aller dans Mes VMs
-8. Démarrer
+2. Choisir une ditribution (Ubuntu/Debian/Fedora)
+3. Choisir CPU/RAM/disque
+4. Créer la VM
+5. Aller dans Mes VMs
+6. Démarrer
 
-## Limites actuelles du MVP
+## Limites actuelles
 
-- les VMs sont gérées par Quickemu ;
-- pas encore de torrent ;
-- pas encore de vérification SHA-256 ;
-- pas encore de virtiofs ;
-- pas encore de console VM intégrée ;
-- pas encore de snapshots ;
-- pas encore d'installation automatique ;
-- l'emplacement de stockage système peut nécessiter des permissions adaptées.
+- les VMs sont gérées par Quickemu
+- pas encore de virtiofs
+- pas de versions windows et mac
 
-Ces fonctionnalités sont volontairement prévues pour les prochaines étapes.
-
+Pour le moment, le systeme est en français, une traduction est prévue ainsi que les implementations des fonctionnalitées manquantes.
