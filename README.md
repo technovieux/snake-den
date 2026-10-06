@@ -108,6 +108,13 @@ Dans SnakeDen :
 5. Aller dans Mes VMs
 6. Démarrer
 
+## Démo
+
+https://github.com/user-attachments/assets/4d720127-a636-4430-a3a4-663bb5372c20
+
+
+
+
 ## Limites actuelles
 
 - les VMs sont gérées par Quickemu
